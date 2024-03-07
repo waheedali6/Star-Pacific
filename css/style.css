@@ -1,0 +1,3014 @@
+/* ---------------CssReset---------------- */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+/* -----------------body------------------- */
+body {
+    background-color: #F0F0F0;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ***************************************HOME-SEC********************************************** */
+
+/* -----------------navbar----------------- */
+.navbar {
+    background-color: #FCFCFC;
+    box-shadow: 0 0 0.76vw 0 #00000040;
+}
+
+.navbar .navSec {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5vw 0;
+}
+
+.navbar .menuBox .head {
+    display: flex;
+    justify-content: end;
+}
+
+.navbar p {
+    margin-bottom: 0.76vw;
+}
+
+.navbar p a {
+    text-decoration: none;
+    font-family: 'Nunito';
+    font-size: 1.4vw;
+    font-weight: 300;
+    color: #404040;
+}
+
+
+.navbar .menu {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin-top: 1.51vw;
+}
+
+.navbar .menuBox .icon {
+    font-size: 3vw;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+}
+
+.navbar .logo {
+    height: 3vw;
+    align-self: flex-start;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    font-family: 'Nunito';
+    font-size: 0.91vw;
+    font-weight: 300;
+    color: #404040;
+    padding: 0.38vw 0.76vw;
+
+}
+
+.navbar .active {
+    color: #034DA2;
+    border: 0.1px solid #034DA2;
+    border-radius: 3vw;
+    font-weight: 800;
+}
+
+.navbar .btn {
+    font-family: 'Nunito';
+    padding: 0.76vw 1.66vw;
+    border-radius: 0.76vw;
+    text-decoration: none;
+    font-size: 1.06vw;
+    font-weight: 700;
+    background-color: #FF7F3F;
+    color: #fff;
+    margin-left: 7.55vw;
+}
+
+.navbar .last-p {
+    margin: 0;
+}
+
+.navbar .menuBox {
+    display: none;
+    align-self: flex-start;
+}
+
+.navbar #body {
+    display: none;
+}
+
+
+/* ------------------------slider----------------------------- */
+.sliderSec {
+    padding: 2vw 0px;
+}
+
+.sliderSec img {
+    height: 34vw;
+    display: block;
+    margin: auto;
+}
+
+.sliderSec .slick-prev {
+    z-index: 99;
+    left: 4vw;
+}
+
+.sliderSec .slick-prev:before {
+    font-size: 3vw;
+}
+
+.sliderSec .slick-next {
+    z-index: 99;
+    right: 5.5vw;
+}
+
+.sliderSec .slick-next:before {
+    font-size: 3vw;
+}
+
+
+
+
+
+
+
+
+/* ----------------------------experience---------------------------- */
+
+.experience {
+    padding: 2vw 0px;
+}
+
+.experience .expSec {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 4.46vw;
+}
+
+.experience .imgSec {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    position: relative;
+    bottom: 6.7vw;
+    height: 31vw;
+}
+
+.experience h1 {
+    text-align: center;
+    font-family: 'Nunito';
+    font-size: 3vw;
+    font-weight: 700;
+    color: #FF701A;
+    margin-bottom: 2vw;
+}
+
+.experience .imgSec img {
+    height: 31vw;
+}
+
+.experience h2 {
+    font-family: 'Nunito';
+    font-size: 3.02vw;
+    font-weight: 700;
+    line-height: 2.3vw;
+    color: #034DA2;
+    position: relative;
+    top: 6.9vw;
+    background-color: #F0F0F0;
+    padding: 0.8vw 1.7vw;
+    border-radius: 0 0 1.51vw 0;
+}
+
+.experience span {
+    font-size: 1.51vw;
+}
+
+.experience .btn {
+    text-decoration: none;
+    color: #fff;
+    background-color: #FF701A;
+    font-family: 'Nunito';
+    font-size: 1.36vw;
+    font-weight: 700;
+    border-radius: 0.8vw;
+    padding: 0.91vw 1.89vw;
+}
+
+.experience .btnBox {
+    padding-top: 2.57vw;
+    padding-right: 1.66vw;
+    background-color: #F0F0F0;
+    position: relative;
+    bottom: 5.3vw;
+    border-radius: 0 1.51vw 0 0;
+}
+
+
+.experience .textSec {
+    display: grid;
+    grid-template-areas:
+        'card1 card3'
+        'card2 card3'
+    ;
+}
+
+.experience .textSec .card {
+    margin-left: 1.81vw;
+    background-color: #FCFCFC;
+    padding: 1.51vw;
+    border-radius: 1.51vw;
+    box-shadow: 0px 0px 20px 0px #00000026;
+
+}
+
+.experience .textSec #card1 {
+    grid-area: card1;
+    margin-bottom: 1.81vw;
+}
+
+.experience .textSec #card2 {
+    grid-area: card2;
+}
+
+.experience .textSec #card3 {
+    grid-area: card3;
+}
+
+.experience .textSec .head {
+    display: flex;
+    align-items: center;
+}
+
+.experience .textSec img {
+    height: 4.6vw;
+}
+
+.experience .textSec h5 {
+    font-family: 'Nunito';
+    font-size: 1.5vw;
+    font-weight: 700;
+    margin-left: 1.132vw;
+    color: #034DA2;
+}
+
+
+.experience .textSec .card p {
+    font-size: 1.4vw;
+    font-weight: 400;
+    color: #404040;
+    font-family: 'Nunito';
+    padding-top: 1.132vw;
+
+}
+
+
+
+/* --------------------------chart------------------------- */
+
+.chart {
+    padding: 3vw 0 4vw 0;
+}
+
+.chartSec {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.chartSec p {
+    font-size: 1.4vw;
+    font-weight: 500;
+    text-align: right;
+    font-family: 'Nunito';
+    color: #404040;
+    margin-bottom: 0.76vw;
+}
+
+.chartSec .imgSec {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    position: relative;
+    bottom: 4vw;
+    height: 31vw;
+    margin: 0 auto;
+}
+
+.chartSec .imgSec img {
+    height: 29vw;
+
+}
+
+.chartSec .imgSec h2 {
+    font-size: 2.87vw;
+    font-weight: 700;
+    font-family: 'Nunito';
+    color: #FF701A;
+    margin-left: 1vw;
+    position: relative;
+    top: 3.5vw;
+}
+
+.chartSec .imgSec .btn {
+    text-decoration: none;
+    color: #fff;
+    background-color: #FF701A;
+    font-family: 'Nunito';
+    font-size: 1.36vw;
+    font-weight: 700;
+    border-radius: 0.76vw;
+    padding: 0.9vw 1.9vw;
+    position: relative;
+    bottom: 3.6vw;
+    left: 32.96vw;
+}
+
+.chartSec .textSec {
+    width: 43vw;
+    margin-left: auto;
+}
+
+.chartSec .chartBox {
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid #034DA2;
+}
+
+.chartSec .chartBox .box {
+    margin: 0.76vw 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.chartSec .chartBox img {
+    width: 3.02vw;
+}
+
+
+.chartSec .chartBox #icon1 {
+    height: 3.02vw;
+}
+
+.chartSec .chartBox #icon2 {
+    height: 3.022vw;
+}
+
+.chartSec .chartBox #icon3 {
+    height: 3.02vw;
+}
+
+.chartSec .chartBox #icon4 {
+    height: 3.03vw;
+}
+
+.chartSec .chartBox #icon5 {
+    height: 2.178vw;
+}
+
+.chartSec .chartBox .bar {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    background-color: #034DA2;
+    height: 3.02vw;
+    float: right;
+}
+
+.chartSec .chartBox .bar h5 {
+    color: #fff;
+    font-family: 'Nunito';
+    font-size: 1.512vw;
+    font-weight: 500;
+    margin-right: 2.263vw;
+}
+
+.chartSec .chartBox #bar1 {
+    width: 32vw;
+}
+
+.chartSec .chartBox #bar2 {
+    width: 35.71vw;
+}
+
+.chartSec .chartBox #bar3 {
+    width: 28.2vw;
+}
+
+.chartSec .chartBox #bar4 {
+    width: 35.71vw;
+}
+
+.chartSec .chartBox #bar5 {
+    width: 32vw;
+}
+
+
+
+/* ---------------------expertiseSection----------------------- */
+
+.expert {
+    margin: 0 6.15vw;
+}
+
+.expertSec .textSec {
+    display: flex;
+    justify-content: center;
+}
+
+.expertSec .text {
+    text-align: center;
+    background-color: #F0F0F0;
+    display: inline-block;
+    border-radius: 0px 0px 1.5vw 1.5vw;
+    position: relative;
+    top: 1.4vw;
+}
+
+.expertSec .text h1 {
+    color: #FF701A;
+    font-family: 'Nunito';
+    font-size: 3.02vw;
+    font-weight: 700;
+}
+
+.expertSec .text p {
+    color: #404040;
+    font-family: 'Nunito';
+    font-size: 1.51vw;
+    font-weight: 500;
+    padding: 0px 2.445vw 0.7vw 2.445vw;
+}
+
+.expertSec .imgSec {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.expertSec .imgSec .imgBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 14vw;
+    z-index: -99;
+}
+
+.expertSec .imgSec #imgBox1,
+.expertSec .imgSec #imgBox2,
+.expertSec .imgSec #imgBox3 {
+    margin-bottom: 2.3vw;
+
+}
+
+.expertSec .imgSec .imgBox img {
+    height: 14vw;
+}
+
+.expertSec .imgSec .imgBox h3 {
+    color: #fff;
+    font-family: 'Nunito';
+    font-size: 1.53vw;
+    font-weight: 700;
+    position: relative;
+    bottom: 3.1vw;
+}
+
+
+
+/* -----------------------networkSection------------------------ */
+
+.netSec .netSec {
+    padding: 4vw 0;
+}
+
+.netSec .network {
+    display: grid;
+    grid-template-areas:
+        'textSec imgSec'
+    ;
+}
+
+.netSec .network {
+    background: url(../images/World\ Map\ 1.png)no-repeat;
+    background-position: 30vw 1vw;
+    background-size: 62vw;
+}
+
+.netSec .imgSec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.netSec .imgSec img {
+    height: 17.5vw;
+}
+
+.netSec h1 {
+    color: #FF701A;
+    font-family: 'Nunito';
+    font-size: 3.02vw;
+    font-weight: 700;
+    margin-bottom: 0.7vw;
+}
+
+.netSec p {
+    color: #404040;
+    font-family: 'Nunito';
+    font-size: 1.51vw;
+    font-weight: 500;
+    margin-bottom: 1.75vw;
+}
+
+.netSec .boxes {
+    display: flex;
+    height: 18.9vw;
+}
+
+.netSec .box {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 10.2vw;
+    width: 10.2vw;
+    border: 0.2vw solid #034DA2;
+    border-radius: 1.51vw;
+    margin-right: 1.05vw;
+}
+
+.netSec h2 {
+    color: #034DA2;
+    font-family: 'Nunito';
+    font-size: 3.02vw;
+    font-weight: 700;
+}
+
+.netSec span {
+    color: #034DA2;
+    font-family: 'Nunito';
+    font-size: 1.51vw;
+    font-weight: 500;
+}
+
+.netSec #box2 {
+    align-self: flex-end;
+}
+
+.netSec #box4 {
+    align-self: flex-end;
+}
+
+
+
+
+
+
+
+
+
+/* --------------------partnerSection---------------------- */
+
+.partSec {
+    padding: 4vw 0;
+}
+
+.partSec h1 {
+    color: #FF701A;
+    font-family: 'Nunito';
+    font-size: 3.02vw;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 0.76vw;
+}
+
+.partSec p {
+    color: #404040;
+    font-family: 'Nunito';
+    font-size: 1.51vw;
+    font-weight: 500;
+    margin-bottom: 1.51vw;
+    text-align: center;
+}
+
+.partSec .iconBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.partSec .box1 {
+    display: flex;
+}
+
+.partSec .box2 {
+    display: flex;
+}
+
+.partSec .iconBox img {
+    display: block;
+    transition: 0.5s;
+    height: 13.58vw;
+}
+
+.partSec .iconBox img:hover {
+    transform: scale(1.1);
+}
+
+
+
+/* -------------------------reviewSection------------------------ */
+
+.revSec {
+    padding: 2vw 0 4vw 0;
+}
+
+.review {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.review h1 {
+    color: #FF701A;
+    font-family: 'Nunito';
+    font-size: 3.02vw;
+    font-weight: 700;
+    margin-bottom: 4.63vw;
+}
+
+.review .overview img {
+    height: 2.32vw;
+}
+
+.review .overview h5 {
+    color: #034DA2;
+    font-family: 'Nunito';
+    font-size: 1.51vw;
+    font-weight: 700;
+    margin: 0.777vw 0px 0.39vw 0px;
+}
+
+.review .overview p {
+    color: #404040;
+    font-family: 'Nunito';
+    font-size: 1.51vw;
+    font-weight: 500;
+}
+
+.review .comaDown {
+    float: right;
+    position: relative;
+    bottom: 2vw;
+    right: 2vw;
+}
+
+.review .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 18.48vw;
+    background-color: #fff;
+    border-radius: 1.51vw;
+    padding: 1.51vw 1.51vw 0.777vw 1.51vw;
+    margin: 0 auto;
+}
+
+.review .card .imgBox {
+    background-color: #F0F0F0;
+    position: relative;
+    top: 1vw;
+    left: 1.51vw;
+    border-radius: 1.51vw 0px 0px 0px;
+    padding: 1.51vw 0px 0px 1.51vw;
+}
+
+.review .card .imgBox img {
+    height: 6.04vw;
+}
+
+.review .card p {
+    color: #404040;
+    font-family: 'Nunito';
+    font-size: 1.51vw;
+    font-weight: 500;
+}
+
+.review .card .name {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+}
+
+
+.review .card h5 {
+    color: #034DA2;
+    font-family: 'Nunito';
+    font-size: 1.51vw;
+    font-weight: 700;
+}
+
+
+
+/* -----------------------footer------------------------- */
+
+footer {
+    background: url(../images/Footer\ BG.png) no-repeat center center/cover;
+    padding: 1.51vw 0;
+}
+
+.footerSec {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+footer .logo {
+    height: 3.8vw;
+    margin-bottom: 3.771vw;
+}
+
+footer .imgSec p {
+    color: #404040;
+    font-family: 'Nunito';
+    font-size: 1.21vw;
+    font-weight: 400;
+    margin-bottom: 0.777vw;
+}
+
+footer .imgSec input {
+    box-shadow: 0.2vw 0.302vw 0.76vw 0 #0505054D inset;
+    border-radius: 1.51vw;
+    border: none;
+    padding-left: 1vw;
+    height: 3.02vw;
+    width: 22.57vw;
+    font-size: 1.15vw;
+    margin-bottom: 2.26vw;
+}
+
+footer .imgSec input::placeholder {
+    color: #404040;
+    font-family: 'Nunito';
+    font-size: 1.132vw;
+    font-weight: 400;
+}
+
+footer .textSec {
+    display: flex;
+}
+
+footer .logoBox img {
+    height: 1.51vw;
+    margin-right: 1.89vw;
+}
+
+footer .linkBox {
+    display: flex;
+    align-self: flex-end;
+    gap: 6vw;
+    border-top: 0.1vw solid #404040;
+    margin-top: 3.82vw;
+    padding-top: 0.382vw;
+}
+
+footer .linkBox ul {
+    list-style: none;
+}
+
+footer .linkBox ul li {
+    margin: 1.06vw 0;
+    line-height: 2vw;
+
+}
+
+footer .linkBox ul li a {
+    text-decoration: none;
+    color: #404040;
+    font-family: 'Nunito';
+    font-size: 1.06vw;
+    font-weight: 400;
+}
+
+footer .linkBox h2 {
+    color: #034DA2;
+    font-family: 'Nunito';
+    font-size: 1.51vw;
+    font-weight: 700;
+    margin-bottom: 2.3vw;
+}
+
+footer .copywrite {
+    height: 1.06vw;
+    display: block;
+    margin: 1.51vw auto 0px auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ********************************ABOUT-US********************************** */
+
+.usSection {
+    padding: 2vw 0;
+}
+
+.usSection .us {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.usSection .textSec {
+    width: 45vw;
+}
+
+.usSection .imgSec {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    height: 29vw;
+    position: relative;
+    bottom: 4.2vw;
+}
+
+.usSection h2 {
+    font-family: 'Nunito';
+    color: #034DA2;
+    font-size: 1.47vw;
+    font-weight: 700;
+}
+
+.usSection h1 {
+    font-family: 'Nunito';
+    color: #FF701A;
+    font-size: 2.93vw;
+    font-weight: 700;
+}
+
+.usSection p {
+    color: #404040;
+    font-family: 'Nunito';
+    font-size: 1.47vw;
+    font-weight: 400;
+}
+
+.usSection .card h3 {
+    font-family: 'Nunito';
+    font-size: 2.2vw;
+    font-weight: 700;
+    color: #FF701A;
+}
+
+.usSection .card p {
+    color: #404040;
+    font-family: 'Nunito';
+    font-size: 0.88vw;
+    font-weight: 500;
+}
+
+.usSection .card {
+    height: 5.35vw;
+    width: 8.64vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 0.1px solid #D0D0D0;
+    background-color: #FCFCFC;
+    box-shadow: 0px 0px 0.74vw 0px #00000026;
+    border-radius: 0.74vw;
+    padding: 0.37vw 0.74vw;
+}
+
+.usSection .cardBox {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1vw;
+}
+
+.usSection .imgSec img {
+    height: 35vw;
+    z-index: -1;
+}
+
+
+
+/* -----------------missionSection--------------------- */
+.missionSec {
+    padding: 2vw 0;
+}
+
+.missionSec .box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2vw;
+}
+
+.missionSec #box1 {
+    margin-bottom: 2vw;
+}
+
+.missionSec .box h3 {
+    color: #034DA2;
+    font-family: 'Nunito';
+    font-size: 1.47vw;
+    font-weight: 700;
+    line-height: 1.2vw;
+    margin-bottom: 0.8vw;
+}
+
+.missionSec .box p {
+    color: #404040;
+    font-family: 'Nunito';
+    font-size: 1.37vw;
+    font-weight: 400;
+}
+
+.missionSec .box .p1 {
+    margin-bottom: 2.42vw;
+}
+
+.missionSec .box img {
+    height: 21.23vw;
+}
+
+.missionSec .promise {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    margin-top: 2vw;
+    gap: 3vw;
+}
+
+.missionSec .promise .imgSec {
+    display: flex;
+    align-items: center;
+}
+
+.missionSec .promise img {
+    height: 17.31vw;
+}
+
+.missionSec .promise h3 {
+    color: #034DA2;
+    font-family: 'Nunito';
+    font-size: 1.51vw;
+    font-weight: 700;
+    margin-bottom: 1vw;
+}
+
+.missionSec .promise p {
+    color: #404040;
+    font-family: 'Nunito';
+    font-size: 1.51vw;
+    font-weight: 400;
+}
+
+.missionSec .promise .p2 {
+    margin-top: 2vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*******************************************INDUSTRIES****************************************************/
+.indusSec {
+    padding: 3vw 0 7vw 0;
+}
+
+.indusSec .indus {
+    background: url(../images/indus-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 30.5vw;
+}
+
+.indusSec h1 {
+    color: #FF701A;
+    background-color: #F0F0F0;
+    font-family: 'Nunito';
+    font-size: 3.02vw;
+    font-weight: 700;
+    padding: 0 2vw 1vw 2vw;
+    border-radius: 0 0 1.51vw 1.51vw;
+}
+
+.indusSec .imgBox {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    margin: 0 1vw;
+    position: relative;
+    top: 6.5vw;
+}
+
+.indusSec .imgBox img {
+    height: 13.4vw;
+    display: block;
+    margin: 0 0.7vw;
+}
+
+
+
+/* -------------comunitySection--------------- */
+.comSec {
+    padding: 2vw 0 4vw 0;
+}
+.comSec .comunity {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0 7vw;
+}
+
+.comSec .side2 .textSec {
+    align-items: flex-end;
+    text-align: right;
+}
+
+.comSec .side2 h4 {
+    align-self: flex-end;
+    border-radius: 0 0 0 1.51vw !important;
+    position: relative;
+    bottom: 2.4vw;
+    right: 0 !important;
+    left: 3.5vw;
+    padding: 2vw 3.5vw 1vw 1.5vw !important;
+}
+
+.comSec .side2 img {
+    left: -1.5vw !important;
+}
+
+.comSec #card4,
+.comSec #card5,
+.comSec #card6{
+    margin-top: 6vw;
+}
+
+.comSec .card {
+    background-color: #fff;
+    border-radius: 1.51vw;
+    height: 19vw;
+    width: 40.5vw;
+    display: flex;
+    padding: 1vw 1.5vw;
+    box-shadow: 0.302vw 0.302vw 1.132vw 0 #00000026;
+}
+
+.comSec .card .imgSec {
+    display: flex;
+    align-items: end;
+}
+
+.comSec .card img {
+    height: 20vw;
+    position: relative;
+    top: 1vw;
+    left: 1.5vw;
+}
+
+.comSec .card .textSec {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.comSec .card h4 {
+    background-color: #F0F0F0;
+    color: #034DA2;
+    font-family: 'Nunito';
+    font-size: 1.51vw;
+    font-weight: 700;
+    position: relative;
+    bottom: 2.4vw;
+    right: 2.47vw;
+    padding: 2vw 1.5vw 1vw 2.5vw;
+    border-radius: 0 0 1.51vw 0;
+}
+
+.comSec .card p {
+    color: #404040;
+    font-family: 'Nunito';
+    font-size: 1.391vw;
+    font-weight: 400;
+    position: relative;
+    bottom: 1.2vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ****************************************SERVICES************************************* */
+
+.sliderSec2 {
+    padding: 2vw 0;
+}
+
+.sliderSec2 .sliderBox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sliderSec2 .slider2 {
+    background: url(../images/Map.png)no-repeat center center/cover;
+    width: 50vw;
+    height: 24.5vw;
+
+}
+
+.sliderSec2 .slider2 img {
+    width: 54vw;
+}
+
+.sliderSec2 .slick-prev {
+    position: relative;
+    left: 0.1vw;
+}
+
+.sliderSec2 .slick-next {
+    margin-right: 1vw;
+}
+
+.sliderSec2 .slick-prev:before,
+.sliderSec2 .slick-next:before {
+    font-size: 3vw;
+}
+
+.sliderSec2 .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 20.03vw;
+    width: 18.57vw;
+    background-color: #FCFCFC;
+    box-shadow: 0px 0px 15px 0px #00000040;
+    border-radius: 1.51vw;
+    padding: 1.7vw;
+}
+
+.sliderSec2 .card h1 {
+    color: #FF701A;
+    font-family: 'Nunito';
+    font-size: 4.4vw;
+    font-weight: 700;
+    line-height: 3.4vw;
+    margin-bottom: 0.6vw;
+
+}
+
+.sliderSec2 .card h3 {
+    color: #034DA2;
+    font-family: 'Nunito';
+    font-size: 1.47vw;
+    font-weight: 700;
+    margin-bottom: 0.6vw;
+}
+
+.sliderSec2 .card p {
+    font-family: 'Nunito';
+    font-size: 1.4vw;
+    font-weight: 400;
+    margin-bottom: 1vw;
+}
+
+.sliderSec2 .card span {
+    color: #034DA2;
+    font-family: 'Nunito';
+    font-size: 1.4vw;
+    font-weight: 800;
+}
+
+.sliderSec2 .card .ellipse {
+    background: url(../images/Ellipse\ 3.png) no-repeat center center/cover;
+    height: 6.04vw;
+    width: 6.04vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sliderSec2 .card .body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+/* ------------------ourServicesSection----------------- */
+.ourServicesSec {
+    padding: 1.5vw 0;
+}
+
+.ourServicesSec h1 {
+    color: #FF701A;
+    text-align: center;
+    font-family: 'Nunito';
+    font-size: 2.86vw;
+    font-weight: 700;
+}
+
+.ourServicesSec p {
+    color: #404040;
+    text-align: center;
+    font-family: 'Nunito';
+    font-size: 1.391vw;
+    font-weight: 400;
+}
+
+.ourServicesSec .group1 {
+    display: grid;
+    grid-template-areas:
+        'textSec imgSec'
+    ;
+    margin-left: auto;
+    width: 83.5vw;
+}
+
+.ourServicesSec .group2 {
+    display: grid;
+    grid-template-areas:
+        'imgSec textSec'
+    ;
+    margin-left: 0;
+    margin-right: auto;
+    width: 83.5vw;
+}
+
+.ourServicesSec .textSec {
+    grid-area: textSec;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.ourServicesSec .imgSec {
+    grid-area: imgSec;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+}
+
+.ourServicesSec .img1 {
+    height: 15.008vw;
+}
+
+.ourServicesSec .img2 {
+    height: 23.38vw;
+}
+
+.ourServicesSec .img3 {
+    height: 17.88vw;
+}
+
+.ourServicesSec .img4 {
+    height: 21.95vw;
+}
+
+.ourServicesSec .img5 {
+    height: 25.57vw;
+}
+
+.ourServicesSec .box {
+    padding: 1vw 0;
+}
+
+.ourServicesSec .box h2 {
+    color: #034DA2;
+    font-family: Nunito;
+    font-size: 1.47vw;
+    font-weight: 700;
+    background-color: #FCFCFC;
+    position: relative;
+    top: 1vw;
+    padding: 1.3vw 1.5vw;
+    border-radius: 1.47vw 1.47vw 0 0;
+}
+
+.ourServicesSec .box p {
+    text-align: left;
+    font-family: Nunito;
+    font-size: 1.35vw;
+    font-weight: 400;
+    background-color: #FCFCFC;
+    box-shadow: 0 0 10px 0 #00000026;
+    padding: 1.3vw 1.5vw;
+    border-radius: 0 1.47vw 1.47vw 1.47vw;
+    width: 35.81vw;
+}
+
+.ourServicesSec .group2 .textSec {
+    align-items: self-end;
+}
+
+.ourServicesSec .group2 p {
+    border-radius: 1.47vw 0 1.47vw 1.47vw;
+    text-align: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* **************************************ourNetwork******************************** */
+
+/* --------------------networkSection------------------- */
+.netSec2 {
+    padding: 2vw 0;
+}
+
+.netSec2 .box1 {
+    display: grid;
+    grid-template-areas:
+        'textSec imgSec'
+    ;
+    gap: 1vw;
+    margin-bottom: 2vw;
+}
+
+.netSec2 .box2 {
+    display: grid;
+    grid-template-areas:
+        'imgSec textSec'
+    ;
+}
+
+.netSec2 .textSec {
+    grid-area: textSec;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.netSec2 .imgSec {
+    grid-area: imgSec;
+    display: flex;
+    align-items: center;
+}
+
+.netSec2 .imgSec img {
+    position: relative;
+    left: 3vw;
+    height: 28vw;
+}
+
+.netSec2 .box2 .textSec {
+    width: 44vw;
+    margin-left: auto;
+}
+
+.netSec2 .box2 .imgSec {
+    justify-content: center;
+}
+
+.netSec2 h1 {
+    color: #FF701A;
+    font-family: Nunito;
+    font-size: 2.93vw;
+    font-weight: 700;
+    margin-bottom: 0.3vw;
+}
+
+.netSec2 span {
+    color: #034DA2;
+    font-family: Nunito;
+    font-size: 1.51vw;
+    font-weight: 700;
+}
+
+.netSec2 p {
+    color: #404040;
+    font-family: Nunito;
+    font-size: 1.51vw;
+    font-weight: 400;
+    margin-top: 3vw;
+}
+
+
+/* -- ------------------------logisticsSection---------------------- -- */
+.logSec {
+    padding: 3vw 0;
+}
+
+.logSec h1 {
+    color: #FF701A;
+    font-family: Nunito;
+    font-size: 2.93vw;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 0.3vw;
+}
+
+.logSec h2 {
+    color: #034DA2;
+    font-family: Nunito;
+    font-size: 1.47vw;
+    font-weight: 700;
+    text-align: center;
+}
+
+.logSec .top-p {
+    color: #404040;
+    font-family: Nunito;
+    font-size: 1.47vw;
+    font-weight: 400;
+    text-align: center;
+    margin: 1.5vw 0 2vw 0;
+    padding: 0 5vw;
+}
+
+.logSec .card h3 {
+    color: #034DA2;
+    font-family: Nunito;
+    font-size: 1.47vw;
+    font-weight: 700;
+}
+
+.logSec .card p {
+    color: #404040;
+    font-family: Nunito;
+    font-size: 1.21vw;
+    font-weight: 400;
+    text-align: left;
+}
+
+.logSec .card {
+    padding: 1vw 1.5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #fff;
+}
+
+.logSec .cardBox {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.logSec .s-box {
+    display: flex;
+}
+
+.logSec .cardBox img {
+    height: 15.7vw;
+}
+
+.logSec .r-left {
+    border-radius: 1.47vw 0 0 0;
+}
+
+.logSec .r-right {
+    border-radius: 0 0 1.47vw 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* **************************************CONTACT-US************************************* */
+
+/* ---------------------formSection--------------------- */
+.formSec {
+    padding: 3vw 0 2vw 0;
+}
+
+.formSec .textSec {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2.5vw;
+}
+
+.formSec .card {
+    background-color: #FCFCFC;
+    box-shadow: 0 0 0.76vw 0 #00000026;
+    padding: 1vw 1.5vw;
+    border-radius: 1.47vw;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.formSec #contact {
+    align-items: start !important;
+}
+
+.formSec h1 {
+    color: #FF701A;
+    font-family: Nunito;
+    font-size: 3.02vw;
+    font-weight: 700;
+    background-color: #F0F0F0;
+    padding: 1.5vw 1.5vw 0.5vw 3vw;
+    border-radius: 0 0 1.47vw 0;
+    position: relative;
+    bottom: 2vw;
+    right: 3.1vw;
+}
+
+.formSec p {
+    color: #404040;
+    font-family: Nunito;
+    font-size: 1.51vw;
+    font-weight: 400;
+}
+
+.formSec #contact .box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.formSec #contact .info {
+    margin-top: 3vw;
+}
+
+.formSec h3 {
+    color: #FF701A;
+    font-family: Nunito;
+    font-size: 1.51vw;
+    font-weight: 700;
+}
+
+.formSec .info p {
+    color: #404040;
+    font-family: Nunito;
+    font-size: 1.06vw;
+    font-weight: 400;
+}
+
+.formSec #form h1 {
+    align-self: flex-end;
+    right: 0;
+    left: 3.1vw;
+    padding: 1.5vw 3vw 0.5vw 1.5vw;
+    border-radius: 0 0 0 1.47vw;
+}
+
+.formSec #form label {
+    color: #034DA2;
+    font-family: Nunito;
+    font-size: 1.06vw;
+    font-weight: 700;
+    margin-bottom: 1vw;
+}
+
+.formSec #form .box {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1vw;
+}
+
+.formSec #form .input {
+    display: flex;
+    flex-direction: column;
+}
+
+.formSec #form input {
+    background: transparent;
+    border: none;
+    border-bottom: 0.1px solid #404040;
+    color: #404040;
+    font-family: Nunito;
+    font-size: 1.06vw;
+    font-weight: 400;
+}
+
+.formSec #form .box input{
+    height: 1.132vw;
+    width: 14vw;
+}
+
+.formSec input:focus-visible {
+    outline: 0px;
+}
+
+.formSec #form .row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1vw;
+}
+
+.formSec #form .message {
+    padding-bottom: 3.5vw;
+}
+
+.formSec #form .message::placeholder {
+    color: #D0D0D0;
+    font-family: Nunito;
+    font-size: 1.06vw;
+    font-weight: 400;
+}
+
+
+.formSec #form .btn {
+    align-self: center;
+    margin-top: auto;
+    color: #FF701A;
+    border: 0.2vw solid #FF701A;
+    font-family: Nunito;
+    font-size: 1.06vw;
+    font-weight: 700;
+    border-radius: 1.47vw;
+    padding: 0.642vw 2.882vw;
+}
+
+.formSec .imgSec {
+    display: flex;
+    justify-content: center;
+    margin-top: 1vw;
+}
+
+.formSec .imgSec img{
+    height: 30.1vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ----------------utilities----------------- */
+.container {
+    margin: 0 3vw !important;
+}
+
+.big-container {
+    margin: 0 11.313vw !important;
+}
+
+.center {
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ****************************************mediaQuiry************************************************ */
+
+@media (max-width:768px) {
+    /* ----------------navbar---------------- */
+
+    .navbar .menuBox {
+        display: block;
+    }
+
+    .navbar ul {
+        display: none;
+    }
+
+    .navbar .btn {
+        display: none;
+    }
+
+    .navbar .logo {
+        height: 5vw;
+    }
+
+    .navbar .menu {
+        margin-top: 4vw;
+    }
+
+    .navbar .menuBox .icon {
+        font-size: 4.5vw;
+    }
+
+    .navbar p {
+        margin-bottom: 2vw;
+    }    
+
+    .navbar p a {
+        font-size: 2vw;
+    }
+
+
+    /* -----------------slider--------------- */
+    .slick-prev,
+    .slick-next {
+        display: none !important;
+    }
+
+
+    /* -------------footer--------------- */
+    footer .linkBox ul li {
+        margin: 1vw 0;
+        line-height: 1.5vw;
+    }
+
+    footer .linkBox h2 {
+        color: #034DA2;
+        font-family: 'Nunito';
+        font-size: 1.7vw
+    }
+
+    footer .imgSec input {
+        height: 2.9vw;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:425px) {
+    .navbar .navSec {
+        padding: 3vw 0;
+    }
+
+    .navbar .logo {
+        height: 9.5vw;
+    }
+
+    .navbar .menuBox .icon {
+        font-size: 9vw;
+    }
+
+    .navbar p {
+        margin-bottom: 3vw;
+    }
+
+    .navbar p a {
+        font-size: 4vw;
+    }
+
+    .navbar .menu {
+        margin-top: 6vw;
+    }
+
+
+    /* -----------------slider---------------- */
+    .sliderSec img {
+        height: 36.4vw;
+    }
+
+
+    /* ------------------experience--------------- */
+    .experience .expSec {
+        grid-template-columns: 1fr;
+    }
+
+    .experience h1 {
+        font-size: 3.6vw;
+    }
+
+    .experience .imgSec {
+        margin: 0 auto;
+        bottom: 12.9vw;
+        height: 61vw;
+    }
+
+    .experience h2 {
+        font-size: 5.5vw;
+        line-height: 4.3vw;
+        top: 12.8vw;
+        padding: 1.7vw 3.6vw;
+        border-radius: 0 0 3.51vw 0;
+    }
+
+    .experience span {
+        font-size: 2.8vw;
+    }
+
+    .experience .imgSec img {
+        height: 58vw;
+    }
+
+    .experience .btn {
+        font-size: 2.8vw;
+        border-radius: 1.2vw;
+        padding: 1.5vw 3.2vw;
+    }
+
+    .experience .btnBox {
+        padding-top: 3.2vw;
+        padding-right: 2.5vw;
+        bottom: 9.9vw;
+        border-radius: 0 2.51vw 0 0;
+    }
+
+    .experience .textSec .card {
+        margin-left: 1.81vw;
+        padding: 3vw;
+        border-radius: 2.51vw;
+    }
+
+    .experience .textSec #card1,
+    .experience .textSec #card2 {
+        margin-left: 0;
+    }
+
+    .experience .textSec img {
+        height: 6.6vw;
+    }
+
+    .experience .textSec h5 {
+        font-size: 2.5vw;
+        margin-left: 2vw;
+    }
+
+    .experience .textSec .card p {
+        font-size: 2.4vw;
+        padding-top: 2vw;
+    }
+
+
+    /* ----------------chart---------------- */
+    .chartSec {
+        grid-template-columns: 1fr;
+    }
+
+    .chartSec .imgSec {
+        bottom: 7vw;
+        height: 74vw;
+    }
+
+    .chartSec .imgSec img {
+        height: 62vw;
+    }
+
+    .chartSec .imgSec h2 {
+        font-size: 6vw;
+        margin-left: 3vw;
+        top: 7.5vw;
+    }
+
+    .chartSec .imgSec .btn {
+        font-size: 2.8vw;
+        border-radius: 1vw;
+        padding: 1.8vw 4.1vw;
+        bottom: 7.6vw;
+        left: 70.96vw;
+    }
+
+    .chartSec .textSec {
+        width: 100%;
+    }
+
+    .chartSec p {
+        font-size: 2.4vw;
+        margin-bottom: 1.76vw;
+    }
+
+    .chartSec .chartBox {
+        margin: 0 5vw;
+    }
+
+    .chartSec .chartBox .box {
+        margin: 1vw 0;
+    }
+
+    .chartSec .chartBox .bar {
+        height: 5.02vw;
+    }
+
+    .chartSec .chartBox img {
+        width: 7.02vw;
+    }
+
+    .chartSec .chartBox #icon1 {
+        height: 7.02vw;
+    }
+
+    .chartSec .chartBox #icon2 {
+        height: 7.022vw;
+    }
+
+    .chartSec .chartBox #icon3 {
+        height: 7.02vw;
+    }
+
+    .chartSec .chartBox #icon4 {
+        height: 7.03vw;
+    }
+
+    .chartSec .chartBox #icon5 {
+        height: 5.178vw;
+    }
+
+    .chartSec .chartBox #bar1 {
+        width: 47vw;
+    }
+
+    .chartSec .chartBox #bar2 {
+        width: 62.71vw;
+    }
+
+    .chartSec .chartBox #bar3 {
+        width: 40.2vw;
+    }
+
+    .chartSec .chartBox #bar4 {
+        width: 62.71vw;
+    }
+
+    .chartSec .chartBox #bar5 {
+        width: 47vw;
+    }
+
+    .chartSec .chartBox .bar h5 {
+        font-size: 2.512vw;
+        margin-right: 3.263vw;
+    }
+
+
+    /* ------------------expert---------------- */
+    .expert {
+        margin: 0;
+    }
+
+    .expertSec .imgSec {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .expertSec .text {
+        border-radius: 0px 0px 2.5vw 2.5vw;
+        top: 2.6vw;
+    }
+
+    .expertSec .text h1 {
+        font-size: 3.8vw;
+    }
+
+    .expertSec .text p {
+        font-size: 2.2vw;
+        padding: 0px 3.445vw 1vw 3.445vw;
+    }
+
+    .expertSec .imgSec .imgBox img {
+        height: 25vw;
+    }
+
+    .expertSec .imgSec .imgBox {
+        height: 25.6vw;
+    }
+
+    .expertSec .imgSec .imgBox h3 {
+        font-size: 2.4vw;
+        bottom: 5.1vw;
+    }
+
+
+    /* --------networkSection-------- */
+    .network {
+        grid-template-areas:
+            'textSec'
+            'imgSec'
+        ;
+    }
+
+    .netSec .textSec {
+        margin: 0 auto;
+        padding-bottom: 5vw;
+    }
+
+    .netSec h1 {
+        text-align: center;
+        font-size: 5vw;
+        margin-bottom: 1vw;
+    }
+
+    .netSec h2 {
+        font-size: 4.6vw;
+    }
+
+
+    .netSec span {
+        font-size: 2.3vw;
+    }
+
+    .netSec p {
+        font-size: 2.6vw;
+        margin-bottom: 1.75vw;
+        text-align: center;
+    }
+
+    .netSec .boxes {
+        justify-content: space-between;
+        height: 28.9vw;
+        margin: 0 3vw;
+    }
+
+    .netSec .box {
+        height: 16.2vw;
+        width: 16.2vw;
+        margin-right: 0;
+        border-radius: 2.51vw;
+    }
+
+    .netSec #box4 {
+        margin: 0;
+    }
+
+    .netSec .imgSec img {
+        height: 28.5vw;
+    }
+
+
+    /* ------------------partner----------------- */
+    .partSec p {
+        font-size: 2.5vw;
+        margin: 0 4vw 3.51vw 4vw;
+    }
+
+    .partSec .iconBox img {
+        display: block;
+        transition: 0.5s;
+        height: 18.58vw;
+    }
+
+
+    .partSec h1 {
+        font-size: 4vw;
+        margin-bottom: 1.76vw;
+    }
+
+
+    /* ----------------review----------------- */
+    .review {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .review h1 {
+        font-size: 6vw;
+        margin-bottom: 6.63vw;
+    }
+
+    .review .overview img {
+        height: 4vw;
+    }
+
+    .review .overview h5 {
+        font-size: 3vw;
+        margin: 1.777vw 0px 0.7vw 0px;
+    }
+
+    .review .overview p {
+        font-size: 3vw;
+        font-weight: 500;
+    }
+
+    .review .comaDown {
+        bottom: 4vw;
+        right: 4vw;
+    }
+
+    .review .card {
+        width: 39.48vw;
+        border-radius: 3.51vw;
+        padding: 3vw 3vw 2vw 3vw;
+    }
+
+    .review .card h5 {
+        font-size: 3vw;
+    }
+
+    .review .card p {
+        font-size: 2.7vw;
+    }
+
+
+    .review .card .imgBox {
+        top: 2vw;
+        left: 2.9vw;
+        border-radius: 3.51vw 0px 0px 0px;
+        padding: 2.51vw 0px 0px 2.51vw;
+    }
+
+    .review .card .imgBox img {
+        height: 12.04vw;
+    }
+
+    .review #card2,
+    .review #card3 {
+        margin-top: 1.5vw;
+    }
+
+
+    /* ----------------footer-------------------- */
+    footer {
+        padding: 4.51vw 0;
+    }
+
+    .footerSec {
+        grid-template-columns: 1fr;
+    }
+
+    footer .logo {
+        height: 9.8vw;
+        margin-bottom: 9.771vw;
+    }
+
+    footer .logoBox img {
+        height: 4.5vw;
+        margin-right: 4.89vw;
+    }
+
+    footer .imgSec p {
+        font-size: 3.5vw;
+        margin-bottom: 2.777vw;
+    }
+
+    footer .imgSec input {
+        box-shadow: 1.2vw 1.302vw 1.76vw 0 #0505054D inset;
+        border-radius: 20px;
+        padding-left: 2.51vw;
+        height: 8.02vw;
+        width: 70.57vw;
+        font-size: 3vw;
+        margin-bottom: 7.26vw;
+    }
+
+    footer .imgSec input::placeholder {
+        font-size: 3vw;
+    }
+
+    footer .linkBox {
+        flex-direction: column;
+        width: 100%;
+        gap: 8vw;
+        border-top: 0.1vw solid #404040;
+        margin-top: 11.82vw;
+        padding-top: 4vw;
+        margin-left: 5vw;
+    }
+
+    footer .linkBox h2 {
+        font-size: 5vw;
+        margin-bottom: 5.3vw;
+    }
+
+    footer .linkBox ul li a {
+        font-size: 3.6vw;
+    }
+
+    footer .linkBox ul li {
+        margin: 5vw 0;
+    }
+
+    footer .copywrite {
+        height: 2.5vw;
+        margin: 5vw auto 0px auto;
+    }
+
+
+
+
+
+
+
+
+
+    /* *******************ABOUT-US********************* */
+
+    /* -----------------usSection----------------- */
+    .usSection {
+        padding: 4vw 0;
+    }
+
+    .usSection .us {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .usSection .textSec {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .usSection h2 {
+        font-size: 3.47vw;
+    }
+
+    .usSection h1 {
+        font-size: 4.93vw;
+    }
+
+    .usSection p {
+        font-size: 3vw;
+    }
+
+    .usSection .card {
+        height: 11.35vw;
+        width: 14.64vw;
+        padding: 0.5vw 1.5vw;
+    }
+
+    .usSection .card h3 {
+        font-size: 4.2vw;
+    }
+
+    .usSection .card p {
+        font-size: 2.1vw;
+    }
+
+    .usSection .imgSec {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 61vw;
+        bottom: 9vw;
+
+    }
+
+    .usSection .imgSec img {
+        height: 75vw;
+    }
+
+    /* --------------mission------------- */
+    .missionSec {
+        padding: 4vw 0;
+    }
+
+    .missionSec .box {
+        grid-template-columns: 1fr;
+    }
+
+    .missionSec .imgSec {
+        margin: 0 auto;
+    }
+
+    .missionSec .textSec {
+        margin: 0 auto;
+    }
+
+    .missionSec .box img {
+        height: 43vw;
+    }
+
+    .missionSec .box h3 {
+        font-size: 3.5vw;
+        margin-bottom: 1.8vw;
+        margin-top: 2vw;
+    }
+
+    .missionSec .box p {
+        font-size: 3vw;
+    }
+
+    .missionSec .box .p1 {
+        margin-bottom: 1.42vw;
+    }
+
+    .missionSec #box2 {
+        margin-top: 5vw;
+    }
+
+    .missionSec .promise {
+        grid-template-columns: 1fr;
+        margin-top: 5vw;
+    }
+
+    .missionSec .promise h3 {
+        font-size: 4vw;
+    }
+
+    .missionSec .promise p {
+        font-size: 3vw;
+    }
+
+    .missionSec .promise .p2 {
+        margin-top: 1vw;
+    }
+
+    .missionSec .promise img {
+        height: 30vw;
+        margin: 2vw 0;
+    }
+
+
+
+
+
+
+
+
+
+
+    /* ********************INDUSTRIES***************** */
+
+    /* ----------------indusSec------------------- */
+    .indusSec {
+        padding: 8vw 0 50vw 0;
+    }
+
+    .indusSec .indus {
+        background: url(../images/indus-android.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        height: 76vw;
+    }
+
+
+    .indusSec h1 {
+        font-size: 6vw;
+        padding: 0 4vw 2vw 4vw;
+        border-radius: 0 0 3vw 3vw;
+    }
+
+    .indusSec .imgBox {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        position: relative;
+        top: 45vw;
+        gap: 3vw;
+    }
+
+    .indusSec .imgBox img {
+        height: 25vw;
+        margin-bottom: 0.5vw;
+    }
+
+
+    /* -------------comSec------------ */
+    .comSec{
+        padding: 5vw 0 10vw 0;
+    }
+    .comSec .comunity {
+        grid-template-columns: 1fr;
+        gap: 7vw;
+    }
+
+    .comSec #card4,
+.comSec #card5,
+.comSec #card6{
+    margin-top: 0;
+}
+
+    .comSec .side1,
+    .comSec .side2 {
+        margin: 0 auto;
+    }
+
+    .comSec .card {
+        background-color: #fff;
+        border-radius: 2.51vw;
+        height: 49vw;
+        width: 88.5vw;
+        padding: 2vw 2.5vw;
+    }
+
+    .comSec .card img {
+        height: 45vw;
+        top: 2vw;
+        left: 2.5vw;
+    }
+
+    .comSec .card h4 {
+        font-size: 3.3vw;
+        bottom: 4vw;
+        right: 4.47vw;
+        padding: 3vw 3.5vw 2vw 4.5vw;
+        border-radius: 0 0 2.51vw 0;
+    }
+
+    .comSec .card p {
+        font-size: 3.3vw;
+        bottom: 2vw;
+    }
+
+    .comSec .side2 h4 {
+        bottom: 4vw;
+        left: 4.5vw;
+        padding: 3vw 4.5vw 2vw 3.5vw !important;
+        border-radius: 0 0 0 2.51vw !important;
+    }
+
+    .comSec .side2 img {
+        left: -3.5vw !important;
+    }
+
+
+
+
+
+
+
+
+    /* **************************SERVICES***************************** */
+
+    /* --------------------sliderSec2--------------------- */
+    .sliderSec2 {
+        padding: 4vw 0;
+    }
+
+    .sliderSec2 .sliderBox {
+        display: block;
+    }
+
+    .sliderSec2 .big-container {
+        margin: 0 !important;
+    }
+
+    .sliderSec2 .slider2 {
+        width: 100vw;
+        height: 50vw;
+    }
+
+    .sliderSec2 .slider2 img {
+        width: 100vw;
+    }
+
+    .sliderSec2 .card {
+        height: 43vw;
+        width: 70vw;
+        margin: 0 auto;
+        padding: 4vw;
+    }
+
+    .sliderSec2 .card h1 {
+        font-size: 8vw;
+        line-height: 7vw;
+        margin-bottom: 2vw;
+    }
+
+    .sliderSec2 .card h3 {
+        font-size: 3.5vw;
+        margin-bottom: 2vw;
+    }
+
+    .sliderSec2 .card p {
+        font-size: 3.5vw;
+        margin-bottom: 1vw;
+    }
+
+    .sliderSec2 .card .ellipse {
+        height: 14vw;
+        width: 14vw;
+    }
+
+    .sliderSec2 .card span {
+        font-size: 3.5vw;
+    }
+
+
+    /* ------------------ourServicesSection----------------- */
+    .ourServicesSec {
+        padding: 4vw 0;
+    }
+
+    .ourServicesSec .box {
+        padding: 5vw 0;
+    }
+
+    .ourServicesSec .box img {
+        margin: 4vw 0;
+    }
+
+    .ourServicesSec .big-container {
+        margin: 0 5vw !important;
+    }
+
+    .ourServicesSec .group1 {
+        grid-template-areas:
+            'textSec'
+            'imgSec'
+        ;
+        margin: 0;
+        width: auto;
+    }
+
+    .ourServicesSec .group2 {
+        grid-template-areas:
+            'textSec'
+            'imgSec'
+        ;
+        margin: 0;
+        width: auto;
+    }
+
+    .ourServicesSec .textSec {
+        justify-self: center;
+    }
+
+
+    .ourServicesSec h1 {
+        font-size: 5.5vw;
+    }
+
+    .ourServicesSec p {
+        font-size: 3.4vw;
+    }
+
+    .ourServicesSec .box p {
+        font-size: 3.4vw;
+        width: auto;
+        padding: 2.3vw 2.5vw;
+        border-radius: 0 2.47vw 2.47vw 2.47vw;
+    }
+
+    .ourServicesSec .box h2 {
+        font-size: 3.4vw;
+        padding: 2.3vw 2.5vw;
+        border-radius: 2.47vw 2.47vw 0 0;
+    }
+
+
+    .ourServicesSec .group2 p {
+        border-radius: 2.47vw 0 2.47vw 2.47vw !important;
+    }
+
+    .ourServicesSec .img1 {
+        height: 30vw;
+    }
+
+    .ourServicesSec .img2 {
+        height: 45vw;
+    }
+
+    .ourServicesSec .img3 {
+        height: 35vw;
+    }
+
+    .ourServicesSec .img4 {
+        height: 45vw;
+    }
+
+    .ourServicesSec .img5 {
+        height: 42vw;
+    }
+
+
+
+
+
+
+
+
+
+    /* **************************************ourNetwork******************************** */
+
+    /* --------------------networkSection------------------- */
+    .netSec2 {
+        padding: 6vw 0;
+    }
+
+    .netSec2 .box1 {
+        display: grid;
+        grid-template-areas:
+            'textSec'
+            'imgSec'
+        ;
+        gap: 5vw;
+        margin-bottom: 5vw;
+    }
+
+    .netSec2 .box2 {
+        display: grid;
+        grid-template-areas:
+            'textSec'
+            'imgSec'
+        ;
+        gap: 6vw;
+    }
+
+    .netSec2 h1 {
+        font-size: 6.5vw;
+        margin-bottom: 2.3vw;
+    }
+
+    .netSec2 span {
+        font-size: 4vw;
+    }
+
+    .netSec2 p {
+        font-size: 4vw;
+        margin-top: 6vw;
+    }
+
+    .netSec2 .imgSec {
+        justify-content: end;
+    }
+
+    .netSec2 .imgSec img {
+        height: 55vw;
+    }
+
+    .netSec2 .box2 .textSec {
+        width: auto;
+        margin-left: 0;
+    }
+
+
+    /* -- ------------------------logisticsSection---------------------- -- */
+    .logSec {
+        padding: 6vw 0;
+    }
+
+    .logSec h1 {
+        color: #FF701A;
+        font-family: Nunito;
+        font-size: 6.5vw;
+    }
+
+    .logSec h2 {
+        font-size: 4vw;
+    }
+
+    .logSec .top-p {
+        font-size: 4vw;
+        padding: 0;
+    }
+
+    .logSec .cardBox {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            's-box1'
+            's-box4'
+            's-box2'
+            's-box5'
+            's-box3'
+            's-box6'
+        ;
+    }
+
+    .logSec .cardBox img {
+        height: 35vw;
+    }
+
+    .logSec .s-box {
+        margin: 2vw 0;
+    }
+
+    .logSec #s-box1 {
+        grid-area: s-box1;
+    }
+
+    .logSec #s-box2 {
+        grid-area: s-box2;
+    }
+
+    .logSec #s-box3 {
+        grid-area: s-box3;
+    }
+
+    .logSec #s-box4 {
+        grid-area: s-box4;
+    }
+
+    .logSec #s-box5 {
+        grid-area: s-box5;
+    }
+
+    .logSec #s-box6 {
+        grid-area: s-box6;
+    }
+
+    .logSec .card {
+        padding: 3vw 3.5vw;
+    }
+
+    .logSec .card h3 {
+        font-size: 4vw;
+        /* margin-bottom: 5.9vw; */
+    }
+
+    .logSec .card p {
+        font-size: 3.21vw;
+    }
+
+    .logSec #s-box1 .card {
+        border-radius: 2.47vw 0 0 2.47vw;
+    }
+
+    .logSec #s-box1 img {
+        border-radius: 0 2.47vw 2.47vw 0;
+    }
+
+    .logSec #s-box4 .card {
+        border-radius: 0 2.47vw 2.47vw 0;
+    }
+
+    .logSec #s-box4 img {
+        border-radius: 2.47vw 0 0 2.47vw;
+    }
+
+    .logSec #s-box2 .card {
+        border-radius: 2.47vw 0 0 2.47vw;
+    }
+
+    .logSec #s-box2 img {
+        border-radius: 0 2.47vw 2.47vw 0;
+    }
+
+    .logSec #s-box5 .card {
+        border-radius: 0 2.47vw 2.47vw 0;
+    }
+
+    .logSec #s-box5 img {
+        border-radius: 2.47vw 0 0 2.47vw;
+    }
+
+    .logSec #s-box3 .card {
+        border-radius: 2.47vw 0 0 2.47vw;
+    }
+
+    .logSec #s-box3 img {
+        border-radius: 0 2.47vw 2.47vw 0;
+    }
+
+    .logSec #s-box6 .card {
+        border-radius: 0 2.47vw 2.47vw 0;
+    }
+
+    .logSec #s-box6 img {
+        border-radius: 2.47vw 0 0 2.47vw;
+    }
+
+
+
+
+
+
+
+
+
+
+/* **********************************CONTACT-US******************************** */
+
+/* ---------------------formSection--------------------- */
+.formSec {
+    padding: 8vw 0 6vw 0;
+}
+
+.formSec .textSec {
+    grid-template-columns: 1fr;
+    gap: 5vw;
+}
+
+.formSec .big-container {
+    margin: 0 3vw !important;
+}
+
+.formSec .card {
+    box-shadow: 0 0 1.76vw 0 #00000026;
+    padding: 2vw 2.5vw;
+    border-radius: 2.47vw;
+
+}
+
+.formSec h1 {
+    font-size: 7.02vw;
+    padding: 4vw 4vw 1vw 4vw;
+    border-radius: 0 0 2.47vw 0;
+    bottom: 5.5vw;
+    right: 4.1vw;
+}
+
+.formSec p {
+    font-size: 4vw;
+}
+
+.formSec #form h1 {
+    left: 4.1vw;
+    padding: 3.5vw 5vw 1vw 4vw;
+    border-radius: 0 0 0 2.47vw;
+}
+
+.formSec h3 {
+    font-size: 4vw;
+}
+
+.formSec .info p {
+    font-size: 3vw;
+}
+
+.formSec #contact .info {
+    margin-top: 6vw;
+}
+
+.formSec #form label {
+    font-size: 3vw;
+    margin-bottom: 1vw;
+}
+
+.formSec #form input {
+    font-size: 4vw;
+}
+
+.formSec #form .box input {
+    height: 6vw;
+    width: 38vw;
+    font-size: 3vw;
+
+}
+
+.formSec #form .row {
+    margin-bottom: 4vw;
+}
+
+.formSec #form .message {
+    padding-bottom: 10vw;
+}
+
+.formSec #form .message::placeholder{
+font-size: 3vw;
+}
+
+.formSec #form .btn {
+    border: 0.5vw solid #FF701A;
+    font-size: 3vw;
+    border-radius: 4.47vw;
+    padding: 2vw 8vw;
+    margin-top: 3vw;
+}
+
+.formSec .imgSec {
+    margin-top: 5vw;
+}
+
+.formSec .imgSec img {
+    height: 38.3vw;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:375px) {
+    .navbar .logo {
+        height: 10vw;
+    }
+
+    .navbar .menuBox .icon {
+        font-size: 10vw;
+    }
+
+    .navbar p a {
+        font-size: 4.3vw;
+    }
+}
