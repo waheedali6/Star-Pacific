@@ -26,6 +26,8 @@ body {
 .navbar {
     background-color: #FCFCFC;
     box-shadow: 0 0 0.76vw 0 #00000040;
+    position: relative;
+    z-index: 99;
 }
 
 .navbar .navSec {
@@ -88,6 +90,11 @@ body {
     color: #034DA2;
     border: 0.1px solid #034DA2;
     border-radius: 3vw;
+    font-weight: 800;
+}
+
+.navbar .active2 {
+    color: #034DA2;
     font-weight: 800;
 }
 
@@ -166,13 +173,16 @@ body {
 }
 
 .experience .imgSec {
+    background: url(../images/expSec-img.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
     display: flex;
     flex-direction: column;
     align-items: start;
-    justify-content: start;
-    position: relative;
-    bottom: 6.7vw;
-    height: 31vw;
+    justify-content: space-between;
+    height: 29vw;
+
 }
 
 .experience h1 {
@@ -184,20 +194,14 @@ body {
     margin-bottom: 2vw;
 }
 
-.experience .imgSec img {
-    height: 31vw;
-}
-
 .experience h2 {
     font-family: 'Nunito';
-    font-size: 3.02vw;
+    font-size: 2.8vw;
     font-weight: 700;
     line-height: 2.3vw;
     color: #034DA2;
-    position: relative;
-    top: 6.9vw;
     background-color: #F0F0F0;
-    padding: 0.8vw 1.7vw;
+    padding: 0.75vw 1.65vw;
     border-radius: 0 0 1.51vw 0;
 }
 
@@ -213,16 +217,17 @@ body {
     font-size: 1.36vw;
     font-weight: 700;
     border-radius: 0.8vw;
-    padding: 0.91vw 1.89vw;
+    padding: 0.91vw 1.8vw;
 }
 
 .experience .btnBox {
-    padding-top: 2.57vw;
-    padding-right: 1.66vw;
+    padding-top: 2.4vw;
+    padding-right: 1.08vw;
     background-color: #F0F0F0;
     position: relative;
-    bottom: 5.3vw;
+    bottom: 0.9vw;
     border-radius: 0 1.51vw 0 0;
+    line-height: 1.7vw;
 }
 
 
@@ -239,7 +244,7 @@ body {
     background-color: #FCFCFC;
     padding: 1.51vw;
     border-radius: 1.51vw;
-    box-shadow: 0px 0px 20px 0px #00000026;
+    box-shadow: 0 0 2.51vw 0 #00000026;
 
 }
 
@@ -499,7 +504,7 @@ body {
 
 /* -----------------------networkSection------------------------ */
 
-.netSec .netSec {
+.netSec {
     padding: 4vw 0;
 }
 
@@ -736,8 +741,11 @@ body {
 /* -----------------------footer------------------------- */
 
 footer {
-    background: url(../images/Footer\ BG.png) no-repeat center center/cover;
-    padding: 1.51vw 0;
+    background: url(../images/Footer\ BG.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 1vw 0;
 }
 
 .footerSec {
@@ -747,7 +755,7 @@ footer {
 
 footer .logo {
     height: 3.8vw;
-    margin-bottom: 3.771vw;
+    margin-bottom: 3.6vw;
 }
 
 footer .imgSec p {
@@ -755,10 +763,13 @@ footer .imgSec p {
     font-family: 'Nunito';
     font-size: 1.21vw;
     font-weight: 400;
-    margin-bottom: 0.777vw;
+    margin-bottom: 0.5vw;
 }
 
 footer .imgSec input {
+    color: #404040;
+    font-family: 'Nunito';
+    font-weight: 600;
     box-shadow: 0.2vw 0.302vw 0.76vw 0 #0505054D inset;
     border-radius: 1.51vw;
     border: none;
@@ -778,6 +789,7 @@ footer .imgSec input::placeholder {
 
 footer .textSec {
     display: flex;
+    justify-content: end;
 }
 
 footer .logoBox img {
@@ -788,7 +800,7 @@ footer .logoBox img {
 footer .linkBox {
     display: flex;
     align-self: flex-end;
-    gap: 6vw;
+    gap: 5.6vw;
     border-top: 0.1vw solid #404040;
     margin-top: 3.82vw;
     padding-top: 0.382vw;
@@ -799,7 +811,7 @@ footer .linkBox ul {
 }
 
 footer .linkBox ul li {
-    margin: 1.06vw 0;
+    margin: 0.3vw 0;
     line-height: 2vw;
 
 }
@@ -817,13 +829,21 @@ footer .linkBox h2 {
     font-family: 'Nunito';
     font-size: 1.51vw;
     font-weight: 700;
-    margin-bottom: 2.3vw;
+    margin-bottom: 1.4vw;
 }
 
 footer .copywrite {
-    height: 1.06vw;
-    display: block;
-    margin: 1.51vw auto 0px auto;
+    font-family: Nunito;
+    font-size: 0.91vw;
+    font-weight: 400;
+    text-align: center;
+    margin: 1.7vw 0 0 0;
+}
+
+footer .copywrite span {
+    font-family: Nunito;
+    font-size: 0.91vw;
+    font-weight: 700;
 }
 
 
@@ -1092,6 +1112,7 @@ footer .copywrite {
 .comSec {
     padding: 2vw 0 4vw 0;
 }
+
 .comSec .comunity {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -1119,7 +1140,7 @@ footer .copywrite {
 
 .comSec #card4,
 .comSec #card5,
-.comSec #card6{
+.comSec #card6 {
     margin-top: 6vw;
 }
 
@@ -1582,7 +1603,7 @@ footer .copywrite {
 
 
 
-/* **************************************CONTACT-US************************************* */
+/* ******************************CONTACT-US****************************** */
 
 /* ---------------------formSection--------------------- */
 .formSec {
@@ -1689,7 +1710,7 @@ footer .copywrite {
     font-weight: 400;
 }
 
-.formSec #form .box input{
+.formSec #form .box input {
     height: 1.132vw;
     width: 14vw;
 }
@@ -1734,7 +1755,7 @@ footer .copywrite {
     margin-top: 1vw;
 }
 
-.formSec .imgSec img{
+.formSec .imgSec img {
     height: 30.1vw;
 }
 
@@ -1828,7 +1849,7 @@ footer .copywrite {
 
     .navbar p {
         margin-bottom: 2vw;
-    }    
+    }
 
     .navbar p a {
         font-size: 2vw;
@@ -1843,19 +1864,65 @@ footer .copywrite {
 
 
     /* -------------footer--------------- */
+    footer .logo {
+        height: 5vw;
+    }
+
+    footer .linkBox {
+        gap: 2vw;
+    }
+
     footer .linkBox ul li {
-        margin: 1vw 0;
-        line-height: 1.5vw;
+        margin: 1.3vw 0;
+        line-height: 1.6vw;
     }
 
     footer .linkBox h2 {
         color: #034DA2;
         font-family: 'Nunito';
-        font-size: 1.7vw
+        font-size: 2vw;
     }
 
     footer .imgSec input {
-        height: 2.9vw;
+        height: 4vw !important;
+        border-radius: 2.51vw;
+        padding-left: 1.5vw;
+        height: 3.02vw;
+        width: 29vw;
+        font-size: 1.6vw;
+        margin-bottom: 2.5vw;
+    }
+
+    footer .imgSec input::placeholder {
+        font-size: 1.6vw;
+    }
+
+    footer .linkBox ul {
+        width: 15vw;
+    }
+
+    footer .linkBox ul li a {
+        font-size: 1.6vw;
+    }
+
+    footer .imgSec p {
+        font-size: 1.6vw;
+        margin-bottom: 1vw;
+    }
+
+    footer .logoBox img {
+        height: 2.3vw;
+        margin-right: 2vw;
+    }
+
+    footer .copywrite {
+        font-size: 1.3vw;
+        margin: 3vw 0 0 0;
+    }
+
+    footer .copywrite span {
+        font-size: 1.3vw;
+
     }
 }
 
@@ -1874,6 +1941,18 @@ footer .copywrite {
 
 
 @media (max-width:425px) {
+
+    /* -----------utility---------- */
+    .container {
+        margin: 0 5vw !important;
+    }
+
+    .big-container {
+        margin: 0 5vw !important;
+    }
+
+
+    /* ---------------navbar----------------- */
     .navbar .navSec {
         padding: 3vw 0;
     }
@@ -1900,59 +1979,73 @@ footer .copywrite {
 
 
     /* -----------------slider---------------- */
+    .sliderSec {
+        padding: 8vw 0 4vw 0;
+    }
+
     .sliderSec img {
         height: 36.4vw;
     }
 
 
     /* ------------------experience--------------- */
+    .experience {
+        padding: 4vw 0;
+    }
+
     .experience .expSec {
         grid-template-columns: 1fr;
+        margin: 0;
+        gap: 4vw;
     }
 
     .experience h1 {
-        font-size: 3.6vw;
+        font-size: 4.7vw;
+        margin-bottom: 2.5vw;
     }
 
     .experience .imgSec {
         margin: 0 auto;
         bottom: 12.9vw;
-        height: 61vw;
+        height: 62vw;
+        width: 100%;
     }
 
     .experience h2 {
-        font-size: 5.5vw;
-        line-height: 4.3vw;
-        top: 12.8vw;
-        padding: 1.7vw 3.6vw;
+        font-size: 6vw;
+        line-height: 5vw;
+        top: 13.5vw;
+        padding: 1.3vw 3.4vw;
         border-radius: 0 0 3.51vw 0;
     }
 
     .experience span {
-        font-size: 2.8vw;
+        font-size: 3.1vw;
     }
 
     .experience .imgSec img {
-        height: 58vw;
+        height: 61vw;
     }
 
     .experience .btn {
-        font-size: 2.8vw;
-        border-radius: 1.2vw;
-        padding: 1.5vw 3.2vw;
+        font-size: 3.2vw;
+        border-radius: 1.4vw;
+        padding: 1.8vw 2.9vw;
     }
 
     .experience .btnBox {
-        padding-top: 3.2vw;
+        padding-top: 4.5vw;
         padding-right: 2.5vw;
-        bottom: 9.9vw;
-        border-radius: 0 2.51vw 0 0;
+        bottom: 1.7vw;
+        border-radius: 0 3.51vw 0 0;
+        line-height: 4.3vw;
     }
 
     .experience .textSec .card {
         margin-left: 1.81vw;
         padding: 3vw;
         border-radius: 2.51vw;
+        box-shadow: 0 0 2.51vw 0 #00000026;
     }
 
     .experience .textSec #card1,
@@ -1961,121 +2054,123 @@ footer .copywrite {
     }
 
     .experience .textSec img {
-        height: 6.6vw;
+        height: 10vw;
     }
 
     .experience .textSec h5 {
-        font-size: 2.5vw;
-        margin-left: 2vw;
+        font-size: 4vw;
+        margin-left: 3vw;
     }
 
     .experience .textSec .card p {
-        font-size: 2.4vw;
-        padding-top: 2vw;
+        font-size: 3.6vw;
+        padding-top: 3vw;
     }
 
 
     /* ----------------chart---------------- */
+    .chart {
+        padding: 4vw 0 8vw 0;
+    }
+
     .chartSec {
         grid-template-columns: 1fr;
     }
 
     .chartSec .imgSec {
+        margin: 0 auto;
         bottom: 7vw;
-        height: 74vw;
+        height: 72vw;
     }
 
     .chartSec .imgSec img {
-        height: 62vw;
+        height: 59vw;
     }
 
     .chartSec .imgSec h2 {
-        font-size: 6vw;
-        margin-left: 3vw;
+        font-size: 5.8vw;
+        margin-left: 2vw;
         top: 7.5vw;
     }
 
     .chartSec .imgSec .btn {
-        font-size: 2.8vw;
+        font-size: 3.2vw;
         border-radius: 1vw;
-        padding: 1.8vw 4.1vw;
+        padding: 1.6vw 2.9vw;
         bottom: 7.6vw;
-        left: 70.96vw;
+        left: 67vw;
     }
 
     .chartSec .textSec {
-        width: 100%;
+        width: auto;
     }
 
     .chartSec p {
-        font-size: 2.4vw;
-        margin-bottom: 1.76vw;
-    }
-
-    .chartSec .chartBox {
-        margin: 0 5vw;
+        font-size: 4vw;
+        margin-bottom: 3vw;
     }
 
     .chartSec .chartBox .box {
-        margin: 1vw 0;
+        margin: 2vw 0;
     }
 
     .chartSec .chartBox .bar {
-        height: 5.02vw;
-    }
-
-    .chartSec .chartBox img {
-        width: 7.02vw;
-    }
-
-    .chartSec .chartBox #icon1 {
-        height: 7.02vw;
-    }
-
-    .chartSec .chartBox #icon2 {
-        height: 7.022vw;
-    }
-
-    .chartSec .chartBox #icon3 {
-        height: 7.02vw;
-    }
-
-    .chartSec .chartBox #icon4 {
-        height: 7.03vw;
-    }
-
-    .chartSec .chartBox #icon5 {
-        height: 5.178vw;
-    }
-
-    .chartSec .chartBox #bar1 {
-        width: 47vw;
-    }
-
-    .chartSec .chartBox #bar2 {
-        width: 62.71vw;
-    }
-
-    .chartSec .chartBox #bar3 {
-        width: 40.2vw;
-    }
-
-    .chartSec .chartBox #bar4 {
-        width: 62.71vw;
-    }
-
-    .chartSec .chartBox #bar5 {
-        width: 47vw;
+        height: 8.02vw;
     }
 
     .chartSec .chartBox .bar h5 {
-        font-size: 2.512vw;
+        font-size: 4vw;
         margin-right: 3.263vw;
     }
 
+    .chartSec .chartBox img {
+        width: 9.02vw;
+    }
+
+    .chartSec .chartBox #icon1 {
+        height: 9.02vw;
+    }
+
+    .chartSec .chartBox #icon2 {
+        height: 9.022vw;
+    }
+
+    .chartSec .chartBox #icon3 {
+        height: 9.02vw;
+    }
+
+    .chartSec .chartBox #icon4 {
+        height: 9.03vw;
+    }
+
+    .chartSec .chartBox #icon5 {
+        height: 7.178vw;
+    }
+
+    .chartSec .chartBox #bar1 {
+        width: 50vw;
+    }
+
+    .chartSec .chartBox #bar2 {
+        width: 65.71vw;
+    }
+
+    .chartSec .chartBox #bar3 {
+        width: 43.2vw;
+    }
+
+    .chartSec .chartBox #bar4 {
+        width: 65.71vw;
+    }
+
+    .chartSec .chartBox #bar5 {
+        width: 50vw;
+    }
+
+
 
     /* ------------------expert---------------- */
-    .expert {
+    .expertSec .expert {
         margin: 0;
     }
 
@@ -2085,16 +2180,16 @@ footer .copywrite {
 
     .expertSec .text {
         border-radius: 0px 0px 2.5vw 2.5vw;
-        top: 2.6vw;
+        top: 1.8vw;
     }
 
     .expertSec .text h1 {
-        font-size: 3.8vw;
+        font-size: 5.5vw;
     }
 
     .expertSec .text p {
-        font-size: 2.2vw;
-        padding: 0px 3.445vw 1vw 3.445vw;
+        font-size: 2.6vw;
+        padding: 0 2.445vw 1vw 2.445vw;
     }
 
     .expertSec .imgSec .imgBox img {
@@ -2106,13 +2201,23 @@ footer .copywrite {
     }
 
     .expertSec .imgSec .imgBox h3 {
-        font-size: 2.4vw;
-        bottom: 5.1vw;
+        font-size: 3.7vw;
+        bottom: 6.1vw;
+    }
+
+    .expertSec .imgSec #imgBox1,
+    .expertSec .imgSec #imgBox2,
+    .expertSec .imgSec #imgBox3 {
+        margin-bottom: 0.7vw;
     }
 
 
     /* --------networkSection-------- */
-    .network {
+    .netSec {
+        padding: 8vw 0 4vw 0;
+    }
+
+    .netSec .network {
         grid-template-areas:
             'textSec'
             'imgSec'
@@ -2126,34 +2231,33 @@ footer .copywrite {
 
     .netSec h1 {
         text-align: center;
-        font-size: 5vw;
-        margin-bottom: 1vw;
+        font-size: 5.4vw;
+        margin-bottom: 2.5vw;
     }
 
     .netSec h2 {
-        font-size: 4.6vw;
+        font-size: 5.7vw;
     }
 
 
     .netSec span {
-        font-size: 2.3vw;
+        font-size: 3.1vw;
     }
 
     .netSec p {
-        font-size: 2.6vw;
-        margin-bottom: 1.75vw;
-        text-align: center;
+        font-size: 4vw;
+        margin-bottom: 2.5vw;
+        text-align: left;
     }
 
     .netSec .boxes {
         justify-content: space-between;
-        height: 28.9vw;
-        margin: 0 3vw;
+        height: 37vw;
     }
 
     .netSec .box {
-        height: 16.2vw;
-        width: 16.2vw;
+        height: 20.5vw;
+        width: 20.5vw;
         margin-right: 0;
         border-radius: 2.51vw;
     }
@@ -2168,89 +2272,104 @@ footer .copywrite {
 
 
     /* ------------------partner----------------- */
+    .partSec {
+        padding: 8vw 0 4vw 0;
+    }
+
     .partSec p {
-        font-size: 2.5vw;
-        margin: 0 4vw 3.51vw 4vw;
+        font-size: 4vw;
+        margin-bottom: 2vw;
     }
 
     .partSec .iconBox img {
         display: block;
         transition: 0.5s;
-        height: 18.58vw;
+        height: 18vw;
     }
 
 
     .partSec h1 {
-        font-size: 4vw;
-        margin-bottom: 1.76vw;
+        font-size: 5.38vw;
+        margin-bottom: 1vw;
     }
 
 
     /* ----------------review----------------- */
-    .review {
+    .revSec {
+        padding: 4vw 0;
+    }
+
+    .revSec .review {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
 
-    .review h1 {
-        font-size: 6vw;
+    .revSec h1 {
+        font-size: 5.7vw;
         margin-bottom: 6.63vw;
     }
 
-    .review .overview img {
-        height: 4vw;
+    .revSec .overview img {
+        height: 5vw;
     }
 
-    .review .overview h5 {
-        font-size: 3vw;
-        margin: 1.777vw 0px 0.7vw 0px;
+    .revSec .overview h5 {
+        font-size: 3.5vw;
+        margin: 2vw 0 1.7vw 0;
     }
 
-    .review .overview p {
-        font-size: 3vw;
-        font-weight: 500;
+    .revSec .overview p {
+        font-size: 3.5vw;
+        margin-bottom: 3vw;
     }
 
-    .review .comaDown {
-        bottom: 4vw;
-        right: 4vw;
+    .revSec .comaDown {
+        bottom: 0;
+        right: 3vw;
     }
 
-    .review .card {
-        width: 39.48vw;
+    .revSec .card {
+        width: 37.5vw;
         border-radius: 3.51vw;
         padding: 3vw 3vw 2vw 3vw;
     }
 
-    .review .card h5 {
-        font-size: 3vw;
+    .review .card .name {
+        height: 13.2vw;
     }
 
-    .review .card p {
-        font-size: 2.7vw;
+    .revSec .card h5 {
+        font-size: 3.5vw;
+    }
+
+    .revSec .card p {
+        font-size: 3.5vw;
     }
 
 
-    .review .card .imgBox {
-        top: 2vw;
-        left: 2.9vw;
-        border-radius: 3.51vw 0px 0px 0px;
-        padding: 2.51vw 0px 0px 2.51vw;
+    .revSec .card .imgBox {
+        top: 3vw;
+        left: 3vw;
+        border-radius: 3.51vw 0 0 0;
+        padding: 3vw 0 0 3vw;
     }
 
-    .review .card .imgBox img {
-        height: 12.04vw;
+    .revSec .card .imgBox img {
+        height: 13.04vw;
     }
 
-    .review #card2,
-    .review #card3 {
+    .revSec #card2,
+    .revSec #card3 {
         margin-top: 1.5vw;
     }
 
 
     /* ----------------footer-------------------- */
     footer {
-        padding: 4.51vw 0;
+        padding: 4vw 0 3vw 0;
+        background-position: bottom;
+        background-size: 220vw;
+        background-color: #fcfcfc;
     }
 
     .footerSec {
@@ -2258,32 +2377,32 @@ footer .copywrite {
     }
 
     footer .logo {
-        height: 9.8vw;
+        height: 11vw;
         margin-bottom: 9.771vw;
     }
 
     footer .logoBox img {
-        height: 4.5vw;
-        margin-right: 4.89vw;
+        height: 6vw;
+        margin-right: 7vw;
     }
 
     footer .imgSec p {
-        font-size: 3.5vw;
+        font-size: 4vw;
         margin-bottom: 2.777vw;
     }
 
     footer .imgSec input {
         box-shadow: 1.2vw 1.302vw 1.76vw 0 #0505054D inset;
         border-radius: 20px;
-        padding-left: 2.51vw;
-        height: 8.02vw;
-        width: 70.57vw;
-        font-size: 3vw;
-        margin-bottom: 7.26vw;
+        padding-left: 4vw;
+        height: 9.5vw !important;
+        width: 73.57vw;
+        font-size: 4vw;
+        margin-bottom: 10.26vw;
     }
 
     footer .imgSec input::placeholder {
-        font-size: 3vw;
+        font-size: 4vw;
     }
 
     footer .linkBox {
@@ -2297,21 +2416,31 @@ footer .copywrite {
     }
 
     footer .linkBox h2 {
-        font-size: 5vw;
-        margin-bottom: 5.3vw;
+        font-size: 5.5vw;
+        margin-bottom: 7vw;
+    }
+
+    footer .linkBox ul {
+        width: auto;
     }
 
     footer .linkBox ul li a {
-        font-size: 3.6vw;
+        font-size: 4.3vw;
     }
 
     footer .linkBox ul li {
         margin: 5vw 0;
+        line-height: 3.6vw;
     }
 
     footer .copywrite {
-        height: 2.5vw;
-        margin: 5vw auto 0px auto;
+        font-size: 2.4vw;
+        margin: 7vw 0 0 0;
+    }
+
+    footer .copywrite span {
+        font-family: Nunito;
+        font-size: 2.4vw;
     }
 
 
@@ -2485,31 +2614,22 @@ footer .copywrite {
 
 
     /* -------------comSec------------ */
-    .comSec{
-        padding: 5vw 0 10vw 0;
+    .comSec {
+        padding: 4vw 0;
     }
+
     .comSec .comunity {
         grid-template-columns: 1fr;
-        gap: 7vw;
-    }
-
-    .comSec #card4,
-.comSec #card5,
-.comSec #card6{
-    margin-top: 0;
-}
-
-    .comSec .side1,
-    .comSec .side2 {
-        margin: 0 auto;
+        gap: 5vw;
     }
 
     .comSec .card {
         background-color: #fff;
         border-radius: 2.51vw;
         height: 49vw;
-        width: 88.5vw;
+        width: 84.9vw;
         padding: 2vw 2.5vw;
+        margin: 0 auto !important;
     }
 
     .comSec .card img {
@@ -2519,7 +2639,7 @@ footer .copywrite {
     }
 
     .comSec .card h4 {
-        font-size: 3.3vw;
+        font-size: 3.08vw;
         bottom: 4vw;
         right: 4.47vw;
         padding: 3vw 3.5vw 2vw 4.5vw;
@@ -2704,7 +2824,7 @@ footer .copywrite {
 
     /* --------------------networkSection------------------- */
     .netSec2 {
-        padding: 6vw 0;
+        padding: 8vw 0 4vw 0;
     }
 
     .netSec2 .box1 {
@@ -2746,6 +2866,7 @@ footer .copywrite {
 
     .netSec2 .imgSec img {
         height: 55vw;
+        left: 1.5vw;
     }
 
     .netSec2 .box2 .textSec {
@@ -2756,7 +2877,7 @@ footer .copywrite {
 
     /* -- ------------------------logisticsSection---------------------- -- */
     .logSec {
-        padding: 6vw 0;
+        padding: 4vw 0;
     }
 
     .logSec h1 {
@@ -2888,102 +3009,98 @@ footer .copywrite {
 
 
 
-/* **********************************CONTACT-US******************************** */
+    /* **********************************CONTACT-US******************************** */
 
-/* ---------------------formSection--------------------- */
-.formSec {
-    padding: 8vw 0 6vw 0;
-}
+    /* ---------------------formSection--------------------- */
+    .formSec {
+        padding: 8vw 0 6vw 0;
+    }
 
-.formSec .textSec {
-    grid-template-columns: 1fr;
-    gap: 5vw;
-}
+    .formSec .textSec {
+        grid-template-columns: 1fr;
+        gap: 5vw;
+    }
 
-.formSec .big-container {
-    margin: 0 3vw !important;
-}
+    .formSec .card {
+        box-shadow: 0 0 1.76vw 0 #00000026;
+        padding: 2vw 2.5vw;
+        border-radius: 2.47vw;
 
-.formSec .card {
-    box-shadow: 0 0 1.76vw 0 #00000026;
-    padding: 2vw 2.5vw;
-    border-radius: 2.47vw;
+    }
 
-}
+    .formSec h1 {
+        font-size: 7.02vw;
+        padding: 4vw 4vw 1vw 4vw;
+        border-radius: 0 0 2.47vw 0;
+        bottom: 5.5vw;
+        right: 4.1vw;
+    }
 
-.formSec h1 {
-    font-size: 7.02vw;
-    padding: 4vw 4vw 1vw 4vw;
-    border-radius: 0 0 2.47vw 0;
-    bottom: 5.5vw;
-    right: 4.1vw;
-}
+    .formSec p {
+        font-size: 4vw;
+    }
 
-.formSec p {
-    font-size: 4vw;
-}
+    .formSec #form h1 {
+        left: 4.1vw;
+        padding: 3.5vw 5vw 1vw 4vw;
+        border-radius: 0 0 0 2.47vw;
+    }
 
-.formSec #form h1 {
-    left: 4.1vw;
-    padding: 3.5vw 5vw 1vw 4vw;
-    border-radius: 0 0 0 2.47vw;
-}
+    .formSec h3 {
+        font-size: 4vw;
+    }
 
-.formSec h3 {
-    font-size: 4vw;
-}
+    .formSec .info p {
+        font-size: 3vw;
+    }
 
-.formSec .info p {
-    font-size: 3vw;
-}
+    .formSec #contact .info {
+        margin-top: 6vw;
+    }
 
-.formSec #contact .info {
-    margin-top: 6vw;
-}
+    .formSec #form label {
+        font-size: 3vw;
+        margin-bottom: 1vw;
+    }
 
-.formSec #form label {
-    font-size: 3vw;
-    margin-bottom: 1vw;
-}
+    .formSec #form input {
+        font-size: 4vw;
+    }
 
-.formSec #form input {
-    font-size: 4vw;
-}
+    .formSec #form .box input {
+        height: 6vw;
+        width: 38vw;
+        font-size: 3vw;
 
-.formSec #form .box input {
-    height: 6vw;
-    width: 38vw;
-    font-size: 3vw;
+    }
 
-}
+    .formSec #form .row {
+        margin-bottom: 4vw;
+    }
 
-.formSec #form .row {
-    margin-bottom: 4vw;
-}
+    .formSec #form .message {
+        padding-bottom: 10vw;
+    }
 
-.formSec #form .message {
-    padding-bottom: 10vw;
-}
+    .formSec #form .message::placeholder {
+        font-size: 3vw;
+    }
 
-.formSec #form .message::placeholder{
-font-size: 3vw;
-}
+    .formSec #form .btn {
+        border: 0.5vw solid #FF701A;
+        font-size: 3vw;
+        border-radius: 4.47vw;
+        padding: 2vw 8vw;
+        margin-top: 3vw;
+    }
 
-.formSec #form .btn {
-    border: 0.5vw solid #FF701A;
-    font-size: 3vw;
-    border-radius: 4.47vw;
-    padding: 2vw 8vw;
-    margin-top: 3vw;
-}
+    .formSec .imgSec {
+        margin-top: 5vw;
+    }
 
-.formSec .imgSec {
-    margin-top: 5vw;
-}
-
-.formSec .imgSec img {
-    height: 38.3vw;
-}
+    .formSec .imgSec img {
+        height: 38.3vw;
+    }
 
 }
 

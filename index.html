@@ -12,6 +12,8 @@
         href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css" />
     <link rel="stylesheet" type="text/css"
         href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 
 </head>
 
@@ -30,7 +32,7 @@
                     </div>
                     <div id="body">
                         <div class="menu">
-                            <p><a href="index.html">HOME</a></p>
+                            <p><a class="active2" href="index.html">HOME</a></p>
                             <p><a href="aboutUs.html">ABOUT US</a></p>
                             <p><a href="industries.html">INDUSTRIES</a></p>
                             <p><a href="services.html">SERVICES</a></p>
@@ -57,7 +59,7 @@
 
 
     <!-- ------Slider1----- -->
-    <section class="sliderSec">
+    <section class="sliderSec" data-aos="fade-up" data-aos-duration="1000">
         <div class="slider1">
             <div class="box">
                 <img src="images/Carousel Images_Ship 1.png" alt="">
@@ -81,13 +83,12 @@
 
     <!-- -------experience-------- -->
 
-    <section class="experience">
+    <section class="experience" data-aos="fade-down" data-aos-duration="1000">
         <div class="container">
             <h1>PROFESSIONAL FREIGHT FORWARDING SERVICES</h1>
             <div class="expSec">
                 <div class="imgSec" class="center">
                     <h2>20+ YEARS <br> <span>OF EXPERIENCE</span></h2>
-                    <img src="images/Vector.png" alt="">
                     <div class="btnBox">
                         <a href="#" class="btn">Learn More</a>
                     </div>
@@ -137,7 +138,7 @@
 
     <!-- -------chart-------- -->
 
-    <section class="chart">
+    <section class="chart" data-aos="fade-right" data-aos-duration="1000">
         <div class="container">
             <div class="chartSec">
                 <div class="imgSec">
@@ -252,7 +253,7 @@
 
     <!-- --------networkSection-------- -->
 
-    <section class="netSec">
+    <section class="netSec" data-aos="fade-up" data-aos-duration="1000">
         <div class="container">
             <div class="network">
                 <div class="textSec">
@@ -302,7 +303,7 @@
 
     <!-- -------partnerSection------- -->
 
-    <section class="partSec">
+    <section class="partSec" data-aos="zoom-in" data-aos-duration="1000">
         <div class="container">
             <div class="partner">
                 <h1>TRUSTED AND RELIABLE SHIPPING PARTNER</h1>
@@ -340,7 +341,7 @@
 
     <!-- ---------reviewSection--------- -->
 
-    <section class="revSec">
+    <section class="revSec" data-aos="fade-right" data-aos-duration="1000">
         <div class="container">
             <div class="review">
                 <div class="overview">
@@ -445,7 +446,7 @@
                     </div>
                 </div>
             </div>
-            <img class="copywrite" src="images/footer-text.png" alt="">
+            <p class="copywrite">Copyright 2023 <span>Star Pacific Shipping,</span> All rights reserved</p>
         </div>
     </footer>
 
@@ -470,6 +471,10 @@
     </script>
 
     <script src="js/script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>

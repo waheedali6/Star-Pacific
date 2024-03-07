@@ -6,6 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/all.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>INDUSTRIES</title>
 </head>
 
@@ -26,7 +32,7 @@
                         <div class="menu">
                             <p><a href="index.html">HOME</a></p>
                             <p><a href="aboutUs.html">ABOUT US</a></p>
-                            <p><a href="industries.html">INDUSTRIES</a></p>
+                            <p><a class="active2" href="industries.html">INDUSTRIES</a></p>
                             <p><a href="services.html">SERVICES</a></p>
                             <p><a href="ourNetworks.html">OUR NETWORKS</a></p>
                             <p class="last-p"><a href="contactUs.html">CONTACT US</a></p>
@@ -59,7 +65,7 @@
 
 
     <!-- ---------------------------industriesSection------------------------------ -->
-    <section class="indusSec">
+    <section class="indusSec" data-aos="fade-up" data-aos-duration="1000">
         <div class="container">
             <div class="indus">
                 <h1>INDUSTRIES WE MOVE</h1>
@@ -89,7 +95,7 @@
     <section class="comSec">
         <div class="container">
             <div class="comunity">
-                <div class="card" id="card1">
+                <div class="card" id="card1" data-aos="fade-up" data-aos-duration="1000">
                     <div class="textSec">
                         <h4>HEALTH & MEDICINE</h4>
                         <p>It is a long established fact that a reader will be distracted by the readable content of
@@ -104,7 +110,7 @@
                     </div>
                 </div>
 
-                <div class="card side2" id="card4">
+                <div class="card side2" id="card4" data-aos="fade-up" data-aos-duration="1000">
                     <div class="imgSec">
                         <img src="images/engineer.png" alt="">
                     </div>
@@ -119,7 +125,7 @@
                     </div>
                 </div>
 
-                <div class="card" id="card2">
+                <div class="card" id="card2" data-aos="fade-up" data-aos-duration="1000">
                     <div class="textSec">
                         <h4>PLANTS & FERTILIZERS</h4>
                         <p>It is a long established fact that a reader will be distracted by the readable content of
@@ -134,7 +140,7 @@
                     </div>
                 </div>
 
-                <div class="card side2" id="card5">
+                <div class="card side2" id="card5" data-aos="fade-up" data-aos-duration="1000">
                     <div class="imgSec">
                         <img src="images/petrol-guy.png" alt="">
                     </div>
@@ -149,7 +155,7 @@
                     </div>
                 </div>
 
-                <div class="card" id="card3">
+                <div class="card" id="card3" data-aos="fade-up" data-aos-duration="1000">
                     <div class="textSec">
                         <h4>TRANSPORT & NAVIGATION</h4>
                         <p>It is a long established fact that a reader will be distracted by the readable content of
@@ -165,11 +171,11 @@
                 </div>
 
 
-               
 
-                
 
-                <div class="card side2" id="card6">
+
+
+                <div class="card side2" id="card6" data-aos="fade-up" data-aos-duration="1000">
                     <div class="imgSec">
                         <img src="images/food-guy.png" alt="">
                     </div>
@@ -246,7 +252,7 @@
                     </div>
                 </div>
             </div>
-            <img class="copywrite" src="images/footer-text.png" alt="">
+            <p class="copywrite">Copyright 2023 <span>Star Pacific Shipping,</span> All rights reserved</p>
         </div>
     </footer>
 
@@ -260,6 +266,10 @@
 
 
     <script src="js/script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>

@@ -6,6 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/all.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>ABOUT-US</title>
 </head>
 
@@ -25,7 +31,7 @@
                     <div id="body">
                         <div class="menu">
                             <p><a href="index.html">HOME</a></p>
-                            <p><a href="aboutUs.html">ABOUT US</a></p>
+                            <p><a class="active2"   href="aboutUs.html">ABOUT US</a></p>
                             <p><a href="industries.html">INDUSTRIES</a></p>
                             <p><a href="services.html">SERVICES</a></p>
                             <p><a href="ourNetworks.html">OUR NETWORKS</a></p>
@@ -61,7 +67,7 @@
 
 
     <!-- --------------------usSection------------------------ -->
-    <section class="usSection">
+    <section class="usSection" data-aos="fade-up" data-aos-duration="1000">
         <div class="big-container">
             <div class="us">
                 <div class="textSec">
@@ -117,7 +123,7 @@
     <section class="missionSec">
         <div class="big-container">
             <div class="mission">
-                <div class="box" id="box1">
+                <div class="box" id="box1" data-aos="zoom-in-right" data-aos-duration="1000">
                     <div class="imgSec">
                         <img src="images/mission-image.png" alt="">
                     </div>
@@ -134,7 +140,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="box" id="box2">
+                <div class="box" id="box2" data-aos="fade-right" data-aos-duration="1000">
                     <div class="textSec">
                         <h3>HEADING</h3>
                         <p class="p1">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
@@ -151,7 +157,7 @@
                         <img src="images/vision.png" alt="">
                     </div>
                 </div>
-                <div class="promise">
+                <div class="promise" data-aos="fade-up" data-aos-duration="1000">
                     <div class="textBox1">
                         <h3>COMPANY</h3>
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is
@@ -237,7 +243,7 @@
                     </div>
                 </div>
             </div>
-            <img class="copywrite" src="images/footer-text.png" alt="">
+            <p class="copywrite">Copyright 2023 <span>Star Pacific Shipping,</span> All rights reserved</p>
         </div>
     </footer>
 
@@ -250,6 +256,10 @@
 
 
     <script src="js/script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>

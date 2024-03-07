@@ -6,6 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/all.css">
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>OUR-NETWORKS</title>
 </head>
 
@@ -27,7 +33,7 @@
                             <p><a href="aboutUs.html">ABOUT US</a></p>
                             <p><a href="industries.html">INDUSTRIES</a></p>
                             <p><a href="services.html">SERVICES</a></p>
-                            <p><a href="ourNetworks.html">OUR NETWORKS</a></p>
+                            <p><a class="active2" href="ourNetworks.html">OUR NETWORKS</a></p>
                             <p class="last-p"><a href="contactUs.html">CONTACT US</a></p>
                         </div>
                     </div>
@@ -59,7 +65,7 @@
 
 
     <!-- ---------------------------networkSection--------------------------- -->
-    <div class="netSec2">
+    <div class="netSec2" data-aos="fade-up" data-aos-duration="1000">
         <div class="container">
             <div class="network">
                 <div class="box1">
@@ -124,7 +130,7 @@
 
 
     <!-- ------------------------logisticsSection---------------------- -->
-    <div class="logSec">
+    <div class="logSec" data-aos="zoom-out" data-aos-duration="1000">
         <div class="container">
             <div class="logisitics">
                 <h1>Global Logistics Excellence</h1>
@@ -260,7 +266,7 @@
                     </div>
                 </div>
             </div>
-            <img class="copywrite" src="images/footer-text.png" alt="">
+            <p class="copywrite">Copyright 2023 <span>Star Pacific Shipping,</span> All rights reserved</p>
         </div>
     </footer>
 
@@ -273,6 +279,10 @@
 
 
     <script src="js/script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
